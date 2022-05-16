@@ -15,13 +15,15 @@ import random
 l = 0
 u = 40
 for num in range (l, u):
-    
+    #X coordinate
     r1 = random.uniform(0,20)
     print("C % s" % (r1), end =" ")
     
+    #Y coordinate
     r2 = random.uniform(0,20)
     print(" % s" % (r2), end =" ")
     
+    #Z coordinate
     r3 = random.uniform(0,20)
     print(" % s" % (r3))
     
